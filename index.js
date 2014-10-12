@@ -50,6 +50,7 @@ function download(platform, opts) {
   }
 
   function write(data, _, next) {
+    this.push(data)
     stream.emit('progress'
       , (progress += data.length) / total
       , progress
