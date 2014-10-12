@@ -11,6 +11,8 @@ var platforms = {
   , linux64: '{{v}}/node-webkit-{{v}}-linux-x64.tar.gz'
 }
 
+module.exports = download
+
 function download(platform, opts) {
   if (typeof opts === 'string') opts = { version: opts }
 
