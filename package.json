@@ -10,7 +10,11 @@
     "email": "hughskennedy@gmail.com",
     "url": "http://hughsk.io/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "nw-versions": "^1.0.0",
+    "request": "^2.45.0",
+    "through2": "^0.6.3"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
