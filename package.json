@@ -1,0 +1,32 @@
+{
+  "name": "nw-download",
+  "version": "1.0.0",
+  "description": "Download a node-webkit archive for a specific platform/version",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/nw-download.git"
+  },
+  "keywords": [
+    "node-webkit",
+    "nw",
+    "download",
+    "platform",
+    "get",
+    "zip",
+    "tar"
+  ],
+  "homepage": "https://github.com/hughsk/nw-download",
+  "bugs": {
+    "url": "https://github.com/hughsk/nw-download/issues"
+  }
+}
