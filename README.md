@@ -31,6 +31,19 @@ Emitted periodically with the progress of the download.
 * `progress` is the total number of bytes downloaded.
 * `total` is the total number of bytes to download.
 
+## CLI Usage
+
+```
+Usage: nw-download <file> {OPTIONS}
+
+Pass a hyphen (-) for the filename to print to stdout,
+otherwise saves the archive in that location.
+
+Options:
+  -r, --range     Specify a semver range to query
+  -p, --platform  Specify the platform to download for
+```
+
 ## License
 
 MIT. See [LICENSE.md](http://github.com/hughsk/nw-download/blob/master/LICENSE.md) for details.

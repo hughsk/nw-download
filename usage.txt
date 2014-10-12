@@ -1,0 +1,8 @@
+Usage: nw-download <file> {OPTIONS}
+
+Pass a hyphen (-) for the filename to print to stdout,
+otherwise saves the archive in that location.
+
+Options:
+  -r, --range     Specify a semver range to query
+  -p, --platform  Specify the platform to download for
